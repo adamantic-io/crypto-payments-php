@@ -39,6 +39,15 @@ class PaymentRequest {
     }
 
     /**
+     * @param string $uuid
+     * @return PaymentRequest
+     */
+    public function setUuid(string $uuid): PaymentRequest {
+        $this->uuid = $uuid;
+        return $this;
+    }
+
+    /**
      * @return string
      */
     public function getUserId(): string
