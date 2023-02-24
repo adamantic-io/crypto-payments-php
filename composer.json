@@ -1,6 +1,6 @@
 {
     "name": "adamantic/crypto-payments-php",
-    "version": "0.2",
+    "version": "0.3",
     "description": "PHP SDK for Crypto Payment Gateways",
     "type": "library",
     "autoload": {
